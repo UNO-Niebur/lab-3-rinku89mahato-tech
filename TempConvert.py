@@ -1,7 +1,7 @@
 #TempConvert.py
-#Name:
-#Date:
-#Assignment:
+#Name:Rinku Mahato
+#Date:02/06/2026
+#Assignment: Convert the temprature from Fahrenheit to Celsius with rounding to 1 decimal precision.
 
 
 def main():
