@@ -6,21 +6,19 @@
 
 def main():
   #Prompt the user for a Fahrenheit temperature
-  Fahrenheit = input("What is the temprature in Fahrenheit: ")
+  fahrenheit = input("What is the temprature in fahrenheit: ")
   
-  f = float(Fahrenheit)
+  f = float(fahrenheit)
   
   #Convert that temperature to celsius, rounding to 1 decimal percision
 
-  Celsius = (f - 32)* 5/9
+  celsius = (f - 32)*5/9
 
-  Celsius_rounded = round (Celsius,1)
+  celsius_rounded = round(celsius,1)
 
   #Output converted temperature.
 
-  print( Celsius_rounded)
-
-
+  print(f"Temprature in celsius: {celsius_rounded}")
 
   #tempF = 80
   #tempC = tempF / 2

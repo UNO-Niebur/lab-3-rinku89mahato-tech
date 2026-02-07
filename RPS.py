@@ -9,15 +9,16 @@ def main():
   ties = 0
   losses = 0
 
+  #Create a loop that continues as long as the user wants to play.
   playAgain = "Y"
   while playAgain == "Y":
-  #Create a loop that continues as long as the user wants to play.
+  
   #User can play as many games as they wish.
+  #Randomly choose the computer between 'R', 'P', or 'S'
     computer = random.choice( ["R",  "P",  "S"] )
     player = input("Pick your weapon (R, P, S): ")
-  #Randomly choose the computer between 'R', 'P', or 'S'
+  
   #Prompt the user for their RPS selection
-
   #Determine winner and state what happened to the user
     if computer == "R":
       print ("Computer Chose Rock")
